@@ -3,3 +3,47 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    min-width: 300px;
+    max-width: 400px;
+    margin: 0 auto 0 auto;
+}
+
+
+.cover{
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(0, 0, 255, 0.432);
+}
+
+
+
+nav{
+    background-color: #C3C3C3;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content, .mode{
+    background-color: #008000 ;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+
+.goBook{
+    background-color: #008000 ;
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
