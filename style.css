@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 html{
     min-width: 300px;
-    max-width: 400px;
+    /* max-width: 400px; */
     margin: 0 auto 0 auto;
 }
 
@@ -13,10 +14,38 @@ html{
 .cover{
     width: 100%;
     height: 90vh;
-    background-color: rgba(0, 0, 255, 0.432);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.600), rgba(255, 255, 255, 0.600)), url(./img/pexels-jack-redgate-932162.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
 }
 
-
+.cover h1{
+    margin-top: 9rem;
+    font-size: 4.5rem;
+    color: black;
+    font-family: 'Smooch', cursive;
+}
+.cover h2{
+    font-size: 2.4rem;
+    font-family: 'Smooch', cursive;
+    margin-bottom: .5rem;
+}
+.cover p{
+    font-size: .9rem;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+}
+.cover h6{
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+   
+}
 
 nav{
     background-color: #C3C3C3;
@@ -32,6 +61,11 @@ nav{
     width: 60px;
     height: 60px;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
 }
 
 
@@ -45,5 +79,9 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.mode .fas {
+    margin-left: .5rem;
 }
 
